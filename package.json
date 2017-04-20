@@ -1,0 +1,24 @@
+{
+  "name": "delegate-electron-events",
+  "version": "1.0.0",
+  "description": "Delegate electron's boot events until there's a window that can handle them",
+  "main": "index.js",
+  "repository": "yoshuawuyts/delegate-electron-events",
+  "license": "MIT",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.8.0",
+    "nyc": "^10.2.0",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  }
+}
