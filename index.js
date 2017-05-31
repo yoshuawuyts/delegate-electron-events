@@ -28,6 +28,8 @@ function delegateElectronEvents () {
   var ee = new EventEmitter()
 
   ipcMain.on('ready', function () {
+    win = true
+
     if (file) {
       let path = file
       file = null
