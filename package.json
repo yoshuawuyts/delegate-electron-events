@@ -1,6 +1,6 @@
 {
   "name": "delegate-electron-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delegate electron's boot events until there's a window that can handle them",
   "main": "index.js",
   "repository": "yoshuawuyts/delegate-electron-events",
